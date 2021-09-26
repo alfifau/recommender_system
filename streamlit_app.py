@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-
-
 df = pd.read_csv('tmdb_5000_movies.csv')
 df.set_index('title', inplace=True)
 
